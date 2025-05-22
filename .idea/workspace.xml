@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66647ac1-a745-4890-a3fe-5f7e028d7e8f" name="更改" comment="fix(手机通讯录): 优化联系人信息输入和查询功能- 添加 strip 函数，用于去除字符串前后空格&#10;- 在添加联系人时，使用 strip 函数处理输入信息，并进行空值校验&#10;- 修改删除和查询功能，使用 strip 函数处理输入的联系人姓名&#10;- 优化修改联系人信息的逻辑，增加空值校验和联系人存在性检查">
-      <change afterPath="$PROJECT_DIR$/20250522/按钮组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250522/按钮综合.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20250522/单选按钮.py" beforeDir="false" afterPath="$PROJECT_DIR$/20250522/单选按钮.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20250522/按钮.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +107,7 @@
     "Python.手机通讯录.executor": "Run",
     "Python.按钮.executor": "Run",
     "Python.按钮组.executor": "Run",
+    "Python.按钮综合.executor": "Run",
     "Python.数据类型转换.executor": "Run",
     "Python.整数.executor": "Run",
     "Python.断言语句.executor": "Run",
@@ -264,7 +263,7 @@
       <workItem from="1747699933000" duration="9375000" />
       <workItem from="1747872074238" duration="3332000" />
       <workItem from="1747875483888" duration="3288000" />
-      <workItem from="1747878798347" duration="2086000" />
+      <workItem from="1747878798347" duration="2821000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -354,7 +353,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747880265332</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix(手机通讯录): 优化联系人信息输入和查询功能- 添加 strip 函数，用于去除字符串前后空格&#10;- 在添加联系人时，使用 strip 函数处理输入信息，并进行空值校验&#10;- 修改删除和查询功能，使用 strip 函数处理输入的联系人姓名&#10;- 优化修改联系人信息的逻辑，增加空值校验和联系人存在性检查">
+      <option name="closed" value="true" />
+      <created>1747880925699</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747880925699</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix(手机通讯录): 优化联系人信息输入和查询功能- 添加 strip 函数，用于去除字符串前后空格&#10;- 在添加联系人时，使用 strip 函数处理输入信息，并进行空值校验&#10;- 修改删除和查询功能，使用 strip 函数处理输入的联系人姓名&#10;- 优化修改联系人信息的逻辑，增加空值校验和联系人存在性检查">
+      <option name="closed" value="true" />
+      <created>1747880945381</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747880945381</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,6 +458,6 @@
     <SUITE FILE_PATH="coverage/Python_study$if.coverage" NAME="if语句 覆盖结果" MODIFIED="1745456346850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250424" />
     <SUITE FILE_PATH="coverage/Python_study$print.coverage" NAME="print函数 覆盖结果" MODIFIED="1745281310785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250422" />
     <SUITE FILE_PATH="coverage/Python_study$for.coverage" NAME="for循环 覆盖结果" MODIFIED="1745311112933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250422" />
-    <SUITE FILE_PATH="coverage/Python_study$.coverage" NAME="按钮组 覆盖结果" MODIFIED="1747880612684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250522" />
+    <SUITE FILE_PATH="coverage/Python_study$.coverage" NAME="按钮综合 覆盖结果" MODIFIED="1747881625404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250522" />
   </component>
 </project>
