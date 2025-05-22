@@ -1,0 +1,21 @@
+Index: 20250508/混合参数.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/20250508/混合参数.py b/20250508/混合参数.py
+new file mode 100644
+--- /dev/null	(date 1746670304037)
++++ b/20250508/混合参数.py	(date 1746670304037)
+@@ -0,0 +1,9 @@
++# 混合参数的定义
++# 默认形参不能后面跟着非默认形参（位置形参），否则会报错
++def fun1(a, b, /, c, d=3, *args, **kwargs):
++    print(f"a:{a}")
++    print(f"b:{b}")
++    print(f"c:{c}")
++    print(f"d:{d}")
++    print(f"args:{args}")
++    print(f"kwargs:{kwargs}")
+diff --git a/20250508/__init__.py b/20250508/__init__.py
+new file mode 100644

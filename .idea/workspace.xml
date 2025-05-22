@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66647ac1-a745-4890-a3fe-5f7e028d7e8f" name="更改" comment="fix(手机通讯录): 优化联系人信息输入和查询功能- 添加 strip 函数，用于去除字符串前后空格&#10;- 在添加联系人时，使用 strip 函数处理输入信息，并进行空值校验&#10;- 修改删除和查询功能，使用 strip 函数处理输入的联系人姓名&#10;- 优化修改联系人信息的逻辑，增加空值校验和联系人存在性检查">
+      <change afterPath="$PROJECT_DIR$/20250508/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250508/全局变量作用域.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250508/函数的返回值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250508/混合参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250512/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250512/文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/单继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/多态.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/多继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/封装.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/构造方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/私有属性和私有方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/类属性和实例属性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/类方法和实例方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/银行管理系统.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250513/面向对象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250514/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250514/aa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250514/运算符重载.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250515/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250515/异常抛出.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250515/异常捕获.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250515/断言语句.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250520.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250520/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250520/创建一个窗体应用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250520/创建一个面板.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250520/创建按钮.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250520/封装窗体类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250520/常用控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250520/桌面应用程序-helloworld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250522/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20250522/常用控件.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="TimelessXiao &lt;2935093588@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TimelessXiao/python_study.git&quot;,
+    &quot;accountId&quot;: &quot;d0eb52c4-101f-4fa4-ae47-857c617115df&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2w1sUP6Ffnf0WqSjqMvNTS14p9v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.11.executor": "Run",
+    "Python.BMI.executor": "Run",
+    "Python.TestShop.executor": "Run",
+    "Python.TestTime.executor": "Run",
+    "Python.TestTree.executor": "Run",
+    "Python.aa.executor": "Run",
+    "Python.demo.executor": "Run",
+    "Python.demo01.executor": "Run",
+    "Python.for循环.executor": "Run",
+    "Python.if.executor": "Run",
+    "Python.if语句.executor": "Run",
+    "Python.print函数.executor": "Run",
+    "Python.while循环.executor": "Run",
+    "Python.while语句.executor": "Run",
+    "Python.作业.executor": "Run",
+    "Python.元组.executor": "Run",
+    "Python.全局变量作用域.executor": "Run",
+    "Python.函数.executor": "Run",
+    "Python.函数的返回值.executor": "Run",
+    "Python.列表元素排序.executor": "Run",
+    "Python.列表推导式.executor": "Run",
+    "Python.创建一个窗体应用.executor": "Run",
+    "Python.创建一个面板.executor": "Run",
+    "Python.创建按钮.executor": "Run",
+    "Python.占位运算符.executor": "Run",
+    "Python.多态.executor": "Run",
+    "Python.多继承.executor": "Run",
+    "Python.字典.executor": "Run",
+    "Python.字符串.executor": "Run",
+    "Python.字符串对齐.executor": "Run",
+    "Python.字符串案例-时间格式转换.executor": "Run",
+    "Python.字符串编码.executor": "Run",
+    "Python.对列表进行操作.executor": "Run",
+    "Python.封装.executor": "Run",
+    "Python.封装窗体类.executor": "Run",
+    "Python.左对齐案例.executor": "Run",
+    "Python.布尔.executor": "Run",
+    "Python.常用控件.executor": "Run",
+    "Python.异常抛出.executor": "Run",
+    "Python.异常捕获.executor": "Run",
+    "Python.循环案例.executor": "Run",
+    "Python.成语接龙.executor": "Run",
+    "Python.手机通讯录.executor": "Run",
+    "Python.数据类型转换.executor": "Run",
+    "Python.整数.executor": "Run",
+    "Python.断言语句.executor": "Run",
+    "Python.构造方法.executor": "Run",
+    "Python.查找字符串.executor": "Run",
+    "Python.格式化字符串.executor": "Run",
+    "Python.桌面应用程序-helloworld.executor": "Run",
+    "Python.浮点数和复数.executor": "Run",
+    "Python.私有属性和私有方法.executor": "Run",
+    "Python.算术运算符.executor": "Run",
+    "Python.类属性和实例属性.executor": "Run",
+    "Python.类方法和实例方法.executor": "Run",
+    "Python.组合数据类型.executor": "Run",
+    "Python.继承.executor": "Run",
+    "Python.词频统计.executor": "Run",
+    "Python.运算符重载.executor": "Run",
+    "Python.银行管理系统.executor": "Run",
+    "Python.集合.executor": "Run",
+    "Python.面向对象.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Python_study/20250421",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python_study\20250421" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_study" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20250507" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20250507/函数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="银行管理系统" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_study" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20250514" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20250514/银行管理系统.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.函数" />
+        <item itemvalue="Python.函数" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\29350\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="66647ac1-a745-4890-a3fe-5f7e028d7e8f" name="更改" comment="" />
+      <created>1745220430754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745220430754</updated>
+      <workItem from="1745220431895" duration="8408000" />
+      <workItem from="1745241070671" duration="36000" />
+      <workItem from="1745241178366" duration="24000" />
+      <workItem from="1745241210850" duration="112000" />
+      <workItem from="1745241333549" duration="10000" />
+      <workItem from="1745241481376" duration="604000" />
+      <workItem from="1745242219875" duration="752000" />
+      <workItem from="1745243227835" duration="25000" />
+      <workItem from="1745243276014" duration="17000" />
+      <workItem from="1745243417784" duration="71000" />
+      <workItem from="1745243512929" duration="1741000" />
+      <workItem from="1745245276915" duration="111000" />
+      <workItem from="1745279337415" duration="1262000" />
+      <workItem from="1745280616878" duration="11684000" />
+      <workItem from="1745300708587" duration="9137000" />
+      <workItem from="1745454549651" duration="10618000" />
+      <workItem from="1745712167805" duration="11865000" />
+      <workItem from="1745735326155" duration="6779000" />
+      <workItem from="1745745118016" duration="242000" />
+      <workItem from="1745746035605" duration="83000" />
+      <workItem from="1746489725875" duration="11599000" />
+      <workItem from="1746598729863" duration="76000" />
+      <workItem from="1746598823879" duration="8966000" />
+      <workItem from="1746607856590" duration="3377000" />
+      <workItem from="1746663418899" duration="9586000" />
+      <workItem from="1747033072038" duration="5603000" />
+      <workItem from="1747042303510" duration="601000" />
+      <workItem from="1747094465732" duration="677000" />
+      <workItem from="1747095161341" duration="11470000" />
+      <workItem from="1747202164333" duration="773000" />
+      <workItem from="1747203974246" duration="11575000" />
+      <workItem from="1747267425436" duration="9608000" />
+      <workItem from="1747378461923" duration="1779000" />
+      <workItem from="1747635570327" duration="2483000" />
+      <workItem from="1747699272759" duration="626000" />
+      <workItem from="1747699933000" duration="9375000" />
+      <workItem from="1747872074238" duration="3332000" />
+      <workItem from="1747875483888" duration="3288000" />
+      <workItem from="1747878798347" duration="1341000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1746607413361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746607413361</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <option name="closed" value="true" />
+      <created>1746609481050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746609481050</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1746609795039</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746609795039</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor(20250507): 更新函数参数打包和解包注释&#10;&#10;-增加了对 args 元组变量名称的说明&#10;- 添加了对多个 *args 参数定义错误的提示">
+      <option name="closed" value="true" />
+      <created>1746610040804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746610040804</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(函数): 添加接受键值对参数的函数&#10;&#10;- 新增函数 fun5，接受任意键值对参数&#10;- 打印接收到的键值对参数&#10;- 示例调用函数，传递不同类型的键值对参数">
+      <option name="closed" value="true" />
+      <created>1746610438194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746610438194</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 添加手机通讯录功能- 新增手机通讯录程序，实现添加、查看、删除、修改和查找联系人的功能&#10;-通过字典存储联系人信息，使用 while 循环和 if-elif 结构处理用户选择&#10;- 优化了函数.py 文件中的注释和示例代码">
+      <option name="closed" value="true" />
+      <created>1746664526806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746664526806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix(手机通讯录): 优化联系人信息输入和查询功能- 添加 strip 函数，用于去除字符串前后空格&#10;- 在添加联系人时，使用 strip 函数处理输入信息，并进行空值校验&#10;- 修改删除和查询功能，使用 strip 函数处理输入的联系人姓名&#10;- 优化修改联系人信息的逻辑，增加空值校验和联系人存在性检查">
+      <option name="closed" value="true" />
+      <created>1746666368744</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746666368744</updated>
+    </task>
+    <task id="LOCAL-00008" summary="首次提交">
+      <option name="closed" value="true" />
+      <created>1747879070698</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747879070698</updated>
+    </task>
+    <task id="LOCAL-00009" summary="首次提交">
+      <option name="closed" value="true" />
+      <created>1747879094296</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747879094296</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="7defe5e9-e1a3-4d0e-aa76-16566cba6935" value="TOOL_WINDOW" />
+        <entry key="eb521284-0df0-4c82-a242-aeba13c3a9d2" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dir:E:/Python_study/20250507" />
+                  <option value="dir:E:/Python_study/20250421" />
+                  <option value="dir:E:/Python_study/20250427" />
+                  <option value="dir:E:/Python_study/20250506" />
+                  <option value="dir:E:/Python_study/20250422" />
+                  <option value="dir:E:/Python_study/20250424" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="7defe5e9-e1a3-4d0e-aa76-16566cba6935">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="eb521284-0df0-4c82-a242-aeba13c3a9d2">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <MESSAGE value="refactor(20250507): 更新函数参数打包和解包注释&#10;&#10;-增加了对 args 元组变量名称的说明&#10;- 添加了对多个 *args 参数定义错误的提示" />
+    <MESSAGE value="feat(函数): 添加接受键值对参数的函数&#10;&#10;- 新增函数 fun5，接受任意键值对参数&#10;- 打印接收到的键值对参数&#10;- 示例调用函数，传递不同类型的键值对参数" />
+    <MESSAGE value="feat: 添加手机通讯录功能- 新增手机通讯录程序，实现添加、查看、删除、修改和查找联系人的功能&#10;-通过字典存储联系人信息，使用 while 循环和 if-elif 结构处理用户选择&#10;- 优化了函数.py 文件中的注释和示例代码" />
+    <MESSAGE value="fix(手机通讯录): 优化联系人信息输入和查询功能- 添加 strip 函数，用于去除字符串前后空格&#10;- 在添加联系人时，使用 strip 函数处理输入信息，并进行空值校验&#10;- 修改删除和查询功能，使用 strip 函数处理输入的联系人姓名&#10;- 优化修改联系人信息的逻辑，增加空值校验和联系人存在性检查" />
+    <MESSAGE value="首次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_study$TestTree.coverage" NAME="TestTree 覆盖结果" MODIFIED="1745286514243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250421" />
+    <SUITE FILE_PATH="coverage/Python_study$demo01.coverage" NAME="demo01 覆盖结果" MODIFIED="1745225345548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250421" />
+    <SUITE FILE_PATH="coverage/Python_study$_.coverage" NAME="字符串案例-时间格式转换 覆盖结果" MODIFIED="1745719267377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250427" />
+    <SUITE FILE_PATH="coverage/Python_study$demo.coverage" NAME="demo 覆盖结果" MODIFIED="1745245374955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250421" />
+    <SUITE FILE_PATH="coverage/Python_study$TestShop.coverage" NAME="TestShop 覆盖结果" MODIFIED="1745285463169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250421" />
+    <SUITE FILE_PATH="coverage/Python_study$while.coverage" NAME="while语句 覆盖结果" MODIFIED="1745457771600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250424" />
+    <SUITE FILE_PATH="coverage/Python_study$aa.coverage" NAME="aa 覆盖结果" MODIFIED="1747641031957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250514" />
+    <SUITE FILE_PATH="coverage/Python_study$BMI.coverage" NAME="BMI 覆盖结果" MODIFIED="1745291180333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250422" />
+    <SUITE FILE_PATH="coverage/Python_study$TestTime.coverage" NAME="TestTime 覆盖结果" MODIFIED="1745292190769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250422" />
+    <SUITE FILE_PATH="coverage/Python_study$_helloworld.coverage" NAME="桌面应用程序-helloworld 覆盖结果" MODIFIED="1747702628002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250520" />
+    <SUITE FILE_PATH="coverage/Python_study$11.coverage" NAME="11 覆盖结果" MODIFIED="1745739591269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250427" />
+    <SUITE FILE_PATH="coverage/Python_study$if.coverage" NAME="if语句 覆盖结果" MODIFIED="1745456346850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250424" />
+    <SUITE FILE_PATH="coverage/Python_study$print.coverage" NAME="print函数 覆盖结果" MODIFIED="1745281310785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250422" />
+    <SUITE FILE_PATH="coverage/Python_study$for.coverage" NAME="for循环 覆盖结果" MODIFIED="1745311112933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250422" />
+    <SUITE FILE_PATH="coverage/Python_study$.coverage" NAME="常用控件 覆盖结果" MODIFIED="1747877011837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20250522" />
+  </component>
+</project>
