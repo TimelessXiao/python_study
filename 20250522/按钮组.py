@@ -20,5 +20,3 @@ app = wx.App()
 myFrame = MyFrame()
 myFrame.Show()
 app.MainLoop()
-
-1111111
